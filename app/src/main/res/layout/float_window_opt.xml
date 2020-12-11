@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/black"
+    android:orientation="vertical"
+    android:paddingTop="32dp">
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/tv_float_opt_start_record"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@android:color/holo_red_light"
+        android:gravity="center"
+        android:padding="16dp"
+        android:text="录制"
+        android:textColor="@color/white" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/tv_float_opt_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@android:color/holo_blue_light"
+        android:gravity="center"
+        android:padding="16dp"
+        android:text="编辑"
+        android:textColor="@color/white" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/tv_float_opt_record_play"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@android:color/holo_purple"
+        android:gravity="center"
+        android:padding="16dp"
+        android:text="播放"
+        android:textColor="@color/white" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/tv_float_opt_clear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@android:color/holo_orange_light"
+        android:gravity="center"
+        android:padding="16dp"
+        android:text="清空"
+        android:textColor="@color/white" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/tv_float_opt_close_opt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@android:color/holo_green_light"
+        android:gravity="center"
+        android:padding="16dp"
+        android:text="关闭"
+        android:textColor="@color/white" />
+</LinearLayout>
